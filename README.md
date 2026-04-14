@@ -39,7 +39,7 @@ Keine Frameworks, keine Dependencies — reines HTML/CSS/JS.
 ## Projektstruktur
 
 ```
-yugames-portfolio/
+yugames/
 ├── index.html          # Haupt-HTML-Datei
 ├── style/
 │   └── yugamesstyle.css    # Gesamtes Styling
@@ -58,8 +58,8 @@ yugames-portfolio/
 Kein Build-Prozess nötig. Einfach `index.html` im Browser öffnen:
 
 ```bash
-git clone https://github.com/DEIN-USERNAME/yugames-portfolio.git
-cd yugames-portfolio
+git clone https://github.com/YuSchool/yugames.git
+cd yugames
 # index.html im Browser öffnen (Doppelklick oder über Live Server in VS Code)
 ```
 
@@ -69,8 +69,8 @@ cd yugames-portfolio
 
 1. Repo auf GitHub öffnen
 2. **Settings** → **Pages**
-3. Source: `Deploy from a branch` → Branch: `main` → Ordner: `/ (root)`
-4. Speichern — nach wenigen Minuten ist die Seite live unter `https://DEIN-USERNAME.github.io/yugames-portfolio`
+3. Source: `Deploy from a branch` → Branch: `master` → Ordner: `/ (root)`
+4. Speichern — nach wenigen Minuten ist die Seite live unter `https://YuSchool.github.io/yugames`
 
 ---
 
