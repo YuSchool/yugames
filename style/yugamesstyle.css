@@ -513,6 +513,15 @@ body{
 }
 .og-badge.dim{color:var(--t3);border-color:var(--t3)}
 
+.og-badge.learn{
+  color:#1d9e75;
+  border-color:rgba(29,158,117,0.3);
+}
+.og-badge.grow{
+	color: #378ADD;
+	border-color: rgba(55,138,221,0.3);
+}
+
 /* ── KONTAKT ── */
 .contact-section{border-top:1px solid var(--line)}
 .cs-inner{

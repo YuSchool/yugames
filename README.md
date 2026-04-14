@@ -18,8 +18,14 @@ Gebaut als Schüler im Bereich Game & Multimedia Entwicklung — zur Vorstellung
 - **Skills & Technologien** — Skill-Balken in drei Bereichen: Programmierung, Design, Story & Narrative
 - **Projekte** — Filterbarer Galerie-Bereich mit Favoriten-Tab
 - **Angebot** — Was ich mitbringe
-- **Kontakt** — Verlinkung zu E-Mail, LinkedIn, Itch.io, GitHub
+- **Kontakt** — Verlinkung zu E-Mail und GitHub
 - **Recruiter-Ansicht** — Separater View mit kompaktem Profil und PDF-Download
+
+---
+
+## Geplante Features
+
+- [ ] DE/EN Sprachumschaltung — Übersetzung aller Texte ins Englische
 
 ---
 
