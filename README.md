@@ -7,7 +7,7 @@ Gebaut als Schüler im Bereich Game & Multimedia Entwicklung — zur Vorstellung
 
 ## Live
 
-> _Link einfügen sobald GitHub Pages aktiviert ist_
+> https://yuschool.github.io/yugames
 
 ---
 
