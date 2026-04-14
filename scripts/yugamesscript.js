@@ -58,6 +58,21 @@ function toggleLang() {
   document.getElementById('lang-label').textContent = isEN ? 'EN' : 'DE';
 }
 
+/* ── Hamburger-Menü ── */
+var menuOpen = false;
+
+function toggleMenu() {
+  menuOpen = !menuOpen;
+  document.getElementById('hamburger').classList.toggle('open', menuOpen);
+  document.getElementById('mobile-menu').classList.toggle('open', menuOpen);
+}
+
+function closeMenu() {
+  menuOpen = false;
+  document.getElementById('hamburger').classList.remove('open');
+  document.getElementById('mobile-menu').classList.remove('open');
+}
+
 /* ── Skill-Balken: Animation beim Einscrollieren ── */
 function animateSkills() {
   document.querySelectorAll('.skill-bar[data-width]').forEach(function(bar) {

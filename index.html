@@ -10,7 +10,6 @@
 <div class="site">
 
   <!-- ── NAVIGATION (fixed) ── -->
-  <!-- Layout: Logo links | Nav-Links zentriert | DE/EN + Recruiter rechts -->
   <nav class="nav">
     <div class="nav-inner">
       <div class="nav-brand">
@@ -19,7 +18,7 @@
       </div>
 
       <div class="nav-center">
-		<a class="nl" href="#ueber-mich"><span class="nl-t">Über mich</span></a>
+        <a class="nl" href="#ueber-mich"><span class="nl-t">Über mich</span></a>
         <a class="nl" href="#projekte"><span class="nl-t">Projekte</span></a>
         <a class="nl" href="#angebot"><span class="nl-t">Angebot</span></a>
         <a class="nl" href="#kontakt"><span class="nl-t">Kontakt</span></a>
@@ -33,6 +32,22 @@
           <span class="nl-t" id="rec-label">Recruiter</span>
         </div>
       </div>
+
+      <!-- Hamburger — nur auf Mobile sichtbar -->
+      <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menü öffnen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menü Dropdown -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a class="mm-link" href="#ueber-mich" onclick="closeMenu()">Über mich</a>
+      <a class="mm-link" href="#projekte" onclick="closeMenu()">Projekte</a>
+      <a class="mm-link" href="#angebot" onclick="closeMenu()">Angebot</a>
+      <a class="mm-link" href="#kontakt" onclick="closeMenu()">Kontakt</a>
+      <a class="mm-link mm-rec" onclick="closeMenu();toggleRec()">Recruiter</a>
     </div>
   </nav>
 
