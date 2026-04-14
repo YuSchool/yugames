@@ -1,0 +1,15 @@
+# Betriebssystem-Dateien
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor-Ordner
+.vscode/
+.idea/
+
+# Temporäre Dateien
+*.tmp
+*.log

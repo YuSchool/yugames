@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YuGames — Portfolio</title>
+<link rel="stylesheet" href="./style/yugamesstyle.css">
+</head>
+<body>
+<div class="site">
+
+  <!-- ── NAVIGATION (fixed) ── -->
+  <!-- Layout: Logo links | Nav-Links zentriert | DE/EN + Recruiter rechts -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <span class="brand-en">Yu<span>Games</span></span>
+        <span class="brand-sub">Game & Multimedia · Karlsruhe</span>
+      </div>
+
+      <div class="nav-center">
+        <a class="nl" href="#projekte"><span class="nl-t">Projekte</span></a>
+        <a class="nl" href="#angebot"><span class="nl-t">Angebot</span></a>
+        <a class="nl" href="#kontakt"><span class="nl-t">Kontakt</span></a>
+      </div>
+
+      <div class="nav-right">
+        <div class="nl lang" onclick="toggleLang()">
+          <span class="nl-t" id="lang-label">DE</span>
+        </div>
+        <div class="nl rec-btn" onclick="toggleRec()">
+          <span class="nl-t" id="rec-label">Recruiter</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── VISITOR VIEW ── -->
+  <div class="vis-view" id="vis">
+
+    <!-- HERO FULLSCREEN -->
+    <div class="hero-wrap">
+
+      <div class="hero">
+
+        <div class="slide on" id="s0">
+          <div class="slide-inner">
+            <div class="slide-bg-text">GAMES</div>
+            <div class="slide-content">
+              <p class="slide-cat">Games</p>
+              <h2 class="slide-title">Interaktive<br><span>Welten.</span></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" id="s1">
+          <div class="slide-inner">
+            <div class="slide-bg-text">ANIMATION</div>
+            <div class="slide-content">
+              <p class="slide-cat">Animation</p>
+              <h2 class="slide-title">Bewegte<br><span>Geschichten.</span></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" id="s2">
+          <div class="slide-inner">
+            <div class="slide-bg-text">FILM</div>
+            <div class="slide-content">
+              <p class="slide-cat">Film</p>
+              <h2 class="slide-title">Visuelle<br><span>Narrative.</span></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" id="s3">
+          <div class="slide-inner">
+            <div class="slide-bg-text">ART</div>
+            <div class="slide-content">
+              <p class="slide-cat">Art</p>
+              <h2 class="slide-title">Digitale<br><span>Kunst.</span></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" id="s4">
+          <div class="slide-inner">
+            <div class="slide-bg-text">PROJECT</div>
+            <div class="slide-content">
+              <p class="slide-cat">Projects</p>
+              <h2 class="slide-title">Alles<br><span>Weitere.</span></h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-dots">
+          <div class="dot on" onclick="goSlide(0)"></div>
+          <div class="dot" onclick="goSlide(1)"></div>
+          <div class="dot" onclick="goSlide(2)"></div>
+          <div class="dot" onclick="goSlide(3)"></div>
+          <div class="dot" onclick="goSlide(4)"></div>
+        </div>
+      </div>
+      <!-- /HERO -->
+
+      <!-- META STRIP -->
+      <div class="meta-row">
+        <div class="meta-inner">
+          <div class="mc">
+            <p class="mc-l">Wer</p>
+            <p class="mc-v"><b>Yusuf Sükün</b> — Game & Multimedia</p>
+          </div>
+          <div class="mc">
+            <p class="mc-l">Standort</p>
+            <p class="mc-v">Karlsruhe — Remote & Vor-Ort</p>
+          </div>
+          <div class="mc">
+            <p class="mc-l">Status</p>
+            <p class="mc-v status-open">Offen für Praktikum</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /HERO FULLSCREEN -->
+
+
+    <!-- ── ÜBER MICH ── -->
+    <div class="content">
+      <div class="sec-head">
+        <p class="sh-en">Über mich</p>
+      </div>
+      <div class="sh-line"></div>
+
+      <!--
+        Layout: Text links — 2×2 Boxen rechts
+        Boxen (von dir definiert): Inspiration / Ziel / Mindset / Abschluss
+      -->
+      <div class="about-section">
+
+        <div class="about-left">
+          <div class="about-intro">
+            <p>
+              Ich bin Schüler im Bereich Game &amp; Multimedia Entwicklung — mitten in meiner
+              Ausbildung, im dritten von vier Halbjahren, und aktiv auf der Suche nach einem
+              Praktikum in einem kreativen Studio.
+            </p>
+            <p>
+              Die Projekte auf dieser Seite sind Lernarbeiten: keine fertigen Produkte,
+              sondern ehrliche Schritte in Richtung Handwerk. Jedes davon hat mir gezeigt,
+              was ich kann — und was ich noch lernen will.
+            </p>
+            <p>
+              Was mich antreibt ist die Verbindung aus Storytelling, Bild und Interaktion.
+              Ich glaube daran, dass gute Spiele Welten erschaffen, die man nicht nur sieht,
+              sondern fühlt — und genau daran will ich mitarbeiten.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <div class="about-boxes">
+            <div class="ab">
+              <p class="ab-v">Anime &amp; Natur</p>
+              <p class="ab-l">Inspiration</p>
+            </div>
+            <div class="ab">
+              <p class="ab-v">Narrative Design</p>
+              <p class="ab-l">Ziel</p>
+            </div>
+            <div class="ab">
+              <p class="ab-v">Problem-<br>Solver</p>
+              <p class="ab-l">Mindset</p>
+            </div>
+            <div class="ab">
+              <p class="ab-v">2026</p>
+              <p class="ab-l">Abschluss</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- /ÜBER MICH -->
+
+
+    <!-- ── SKILLS & TECHNOLOGIEN ── -->
+    <!-- 3 Spalten: Programmierung / Design / Story & Narrative -->
+    <div class="content">
+      <div class="skills-section">
+
+        <div class="skills-header">
+          <p class="sh-en">Skills & Technologien</p>
+          <p class="skills-subtitle">
+            Von Code über visuelle Gestaltung bis hin zu narrativen Strukturen — mein Werkzeugkasten wächst in allen drei Richtungen.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Spalte 1: Programmierung -->
+          <div class="skill-col">
+            <div class="skill-col-label">
+              <div class="skill-col-icon code">&lt;/&gt;</div>
+              Programmierung
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">Unity / C#</p>
+              <div class="skill-bar-bg"><div class="skill-bar green" data-width="58%"></div></div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">HTML & CSS</p>
+              <div class="skill-bar-bg"><div class="skill-bar green" data-width="42%"></div></div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">JavaScript</p>
+              <div class="skill-bar-bg"><div class="skill-bar green" data-width="28%"></div></div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">SQL</p>
+              <div class="skill-bar-bg"><div class="skill-bar green" data-width="22%"></div></div>
+            </div>
+          </div>
+
+          <!-- Spalte 2: Design -->
+          <div class="skill-col">
+            <div class="skill-col-label">
+              <div class="skill-col-icon design">&#9670;</div>
+              Design & Adobe Suite
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">Blender</p>
+              <div class="skill-bar-bg"><div class="skill-bar red" data-width="52%"></div></div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">Premiere Pro</p>
+              <div class="skill-bar-bg"><div class="skill-bar red" data-width="44%"></div></div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">Photoshop</p>
+              <div class="skill-bar-bg"><div class="skill-bar red" data-width="38%"></div></div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">After Effects</p>
+              <div class="skill-bar-bg"><div class="skill-bar red" data-width="26%"></div></div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">Substance Painter</p>
+              <div class="skill-bar-bg"><div class="skill-bar red" data-width="24%"></div></div>
+            </div>
+          </div>
+
+          <!-- Spalte 3: Story & Narrative -->
+          <div class="skill-col">
+            <div class="skill-col-label">
+              <div class="skill-col-icon story">&#9654;</div>
+              Story & Narrative
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">Worldbuilding</p>
+              <div class="skill-bar-bg"><div class="skill-bar story" data-width="65%"></div></div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">Character Writing</p>
+              <div class="skill-bar-bg"><div class="skill-bar story" data-width="60%"></div></div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">Quest Design</p>
+              <div class="skill-bar-bg"><div class="skill-bar story" data-width="40%"></div></div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">Twine / Ink</p>
+              <div class="skill-bar-bg"><div class="skill-bar story" data-width="30%"></div></div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-name">Dialogue Systems</p>
+              <div class="skill-bar-bg"><div class="skill-bar story" data-width="25%"></div></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- /SKILLS -->
+
+
+    <!-- ── PROJEKTE ── -->
+    <div class="content" id="projekte">
+      <div class="sec-head">
+        <p class="sh-en">Projekte</p>
+      </div>
+      <div class="sh-line"></div>
+
+      <div class="projects-section">
+
+        <div class="cat-tabs">
+          <button class="cat-tab on" onclick="filterCat('favorites', this)">Favoriten</button>
+          <button class="cat-tab" onclick="filterCat('games', this)">Games</button>
+          <button class="cat-tab" onclick="filterCat('animation', this)">Animation</button>
+          <button class="cat-tab" onclick="filterCat('film', this)">Film</button>
+          <button class="cat-tab" onclick="filterCat('art', this)">Art</button>
+          <button class="cat-tab" onclick="filterCat('projects', this)">Sonstiges</button>
+        </div>
+
+        <!--
+          PROJEKTE HINTERLEGEN:
+          - data-cat="games|animation|film|art|projects"
+          - data-fav="true"  →  erscheint im Favoriten-Tab
+          - Ohne data-fav    →  nur in der jeweiligen Kategorie
+        -->
+        <div class="gallery-grid" id="gallery">
+
+          <div class="gcard" data-cat="games" data-fav="true">
+            <div class="gc-thumb">
+              <span class="gc-placeholder">G1</span>
+              <span class="gc-fav-badge">Favorit</span>
+              <div class="gc-overlay"><span class="gc-arrow">↗</span></div>
+            </div>
+            <div class="gc-info">
+              <p class="gc-title">[Spieltitel]</p>
+              <p class="gc-tag">Game · Unity</p>
+            </div>
+          </div>
+
+          <div class="gcard" data-cat="animation" data-fav="true">
+            <div class="gc-thumb">
+              <span class="gc-placeholder">ANI</span>
+              <span class="gc-fav-badge">Favorit</span>
+              <div class="gc-overlay"><span class="gc-arrow">↗</span></div>
+            </div>
+            <div class="gc-info">
+              <p class="gc-title">[Animationswerk]</p>
+              <p class="gc-tag">Animation · Blender</p>
+            </div>
+          </div>
+
+          <div class="gcard" data-cat="film">
+            <div class="gc-thumb">
+              <span class="gc-placeholder">▶</span>
+              <div class="gc-overlay"><span class="gc-arrow">↗</span></div>
+            </div>
+            <div class="gc-info">
+              <p class="gc-title">[Filmtitel]</p>
+              <p class="gc-tag">Film · After Effects</p>
+            </div>
+          </div>
+
+          <div class="gcard" data-cat="art" data-fav="true">
+            <div class="gc-thumb">
+              <span class="gc-placeholder">ART</span>
+              <span class="gc-fav-badge">Favorit</span>
+              <div class="gc-overlay"><span class="gc-arrow">↗</span></div>
+            </div>
+            <div class="gc-info">
+              <p class="gc-title">[Kunstwerk]</p>
+              <p class="gc-tag">Art · Photoshop</p>
+            </div>
+          </div>
+
+          <div class="gcard" data-cat="games">
+            <div class="gc-thumb">
+              <span class="gc-placeholder">G2</span>
+              <div class="gc-overlay"><span class="gc-arrow">↗</span></div>
+            </div>
+            <div class="gc-info">
+              <p class="gc-title">[Narrative Projekt]</p>
+              <p class="gc-tag">Interactive · Twine</p>
+            </div>
+          </div>
+
+          <div class="gcard" data-cat="projects">
+            <div class="gc-thumb">
+              <span class="gc-placeholder">PRJ</span>
+              <div class="gc-overlay"><span class="gc-arrow">↗</span></div>
+            </div>
+            <div class="gc-info">
+              <p class="gc-title">[Sonstiges Projekt]</p>
+              <p class="gc-tag">Project · Mixed</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="gallery-more">
+          <button class="more-btn">Alle Projekte ansehen →</button>
+        </div>
+
+      </div>
+    </div>
+    <!-- /PROJEKTE -->
+
+
+    <!-- ── ANGEBOT ── -->
+    <div class="content" id="angebot">
+      <div class="sec-head">
+        <p class="sh-en">Was ich mitbringe</p>
+      </div>
+      <div class="sh-line"></div>
+
+      <div class="offer-section">
+        <div class="offer-grid">
+          <div class="og">
+            <p class="og-en">Worldbuilding</p>
+            <p class="og-desc">Welten mit innerer Logik — Geschichte, Fraktionen, Regeln. Nicht Dekoration, sondern spielbares System.</p>
+            <span class="og-badge">Kernstärke</span>
+          </div>
+          <div class="og">
+            <p class="og-en">Character Writing</p>
+            <p class="og-desc">Charaktere mit Wunden und Willen. Dialoge die klingen wie Menschen — nicht wie Dialoge.</p>
+            <span class="og-badge">Kernstärke</span>
+          </div>
+          <div class="og">
+            <p class="og-en">Game & Multimedia</p>
+            <p class="og-desc">Unity, Blender, After Effects — Entwicklung in allen Bereichen. Aktiv lernend über alle Disziplinen.</p>
+            <span class="og-badge dim">Wächst</span>
+          </div>
+          <div class="og">
+            <p class="og-en">Narrative Design</p>
+            <p class="og-desc">Quest Design, Dialogsysteme, Twine & Ink. Story und Gameplay als untrennbares System.</p>
+            <span class="og-badge dim">In Entwicklung</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /ANGEBOT -->
+
+
+    <!-- ── KONTAKT ── -->
+    <div class="contact-section" id="kontakt">
+      <div class="cs-inner">
+        <p class="cs-title">Bereit zum Gespräch.</p>
+        <p class="cs-text">
+          Ich suche ein Praktikum in einem kreativen Studio — remote oder vor Ort in Deutschland.
+          Wenn du jemanden suchst der mitdenkt, mitarbeitet und aus jeder Aufgabe etwas lernt:
+          Schreib mir.
+        </p>
+        <div class="cs-btns">
+          <button class="cs-btn">E-Mail</button>
+          <button class="cs-btn">LinkedIn</button>
+          <button class="cs-btn">Itch.io</button>
+          <button class="cs-btn">GitHub</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- /VISITOR VIEW -->
+
+
+  <!-- ── RECRUITER VIEW ── -->
+  <div class="rec-view" id="rec">
+    <div class="content">
+
+      <!-- Überschrift wie "Über mich" -->
+      <div class="sec-head">
+        <p class="sh-en">Yusuf Sükün</p>
+      </div>
+      <div class="sh-line"></div>
+
+      <!-- Zweispaltiges Layout: Text + Bio links, Kästchen + PDF rechts -->
+      <div class="rec-section">
+
+        <div class="rec-left">
+          <p class="rt-role-en">Game & Multimedia Developer · Narrative Designer · Einsteiger</p>
+          <p class="rt-bio">
+            Absolviere eine Ausbildung zum Informatiker für Game- und Multimedia-Entwicklung.
+            Stärken in Weltenbau, Narrative Design und kreativem Denken. Inspiriert von Anime,
+            Kampfkünsten und Naturwissenschaft. Suche ein Praktikum in dem ich direkt mitarbeite
+            und von Profis lerne.
+          </p>
+        </div>
+
+        <div class="rec-right">
+          <div class="rec-boxes">
+            <div class="rts">
+              <p class="rts-l">Status</p>
+              <p class="rts-v open">Offen für Praktikum</p>
+            </div>
+            <div class="rts">
+              <p class="rts-l">Standort</p>
+              <p class="rts-v">Deutschlandweit</p>
+            </div>
+            <div class="rts">
+              <p class="rts-l">Verfügbar ab – bis</p>
+              <p class="rts-v">01.05.2026 – 31.07.2026</p>
+            </div>
+          </div>
+          <button class="rt-dl">Portfolio-PDF herunterladen</button>
+        </div>
+
+      </div>
+
+      <!-- Profil-Tabelle -->
+      <div class="rec-profile">
+        <p class="rp-head">Profil</p>
+        <table class="rtable">
+          <tr><td>Studiengang</td><td>Informatiker für Game & Multimedia Entwicklung</td></tr>
+          <tr><td>Kernstärken</td><td>Worldbuilding, Narrative Design, Character Writing, Quest Design</td></tr>
+          <tr><td>Tools</td><td>Unity / C#, Blender, Photoshop, After Effects, Premiere Pro, Twine / Ink</td></tr>
+          <tr><td>Sprachen</td><td>Deutsch (Muttersprache), Englisch (fließend)</td></tr>
+          <tr><td>Praktikum</td><td>Vollzeit, mind. 3 Monate — Remote oder Vor-Ort</td></tr>
+          <tr><td>Kontakt</td><td style="color:var(--red)">deine@email.de</td></tr>
+        </table>
+      </div>
+
+    </div>
+
+    <!-- Kontakt-Bereich zentriert wie Hauptseite -->
+    <div class="contact-section">
+      <div class="cs-inner">
+        <p class="cs-title">Profil übersehen?</p>
+        <p class="cs-text">
+          Schau dir nochmals meine Profile an und entscheide in Ruhe.
+          Ich freue mich auf jede Rückmeldung.
+        </p>
+        <div class="cs-btns">
+          <button class="cs-btn">E-Mail</button>
+          <button class="cs-btn">LinkedIn</button>
+          <button class="cs-btn">Itch.io</button>
+          <button class="cs-btn">GitHub</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- /RECRUITER VIEW -->
+
+
+  <!-- ── FOOTER ── -->
+  <footer class="foot">
+    <div class="foot-inner">
+      <span class="foot-logo">Yu<span>Games</span></span>
+      <p class="foot-copy">&copy; <span id="year"></span> Yusuf Sükün — Alle Rechte vorbehalten. Sämtliche Inhalte, Projekte und Gestaltung sind urheberrechtlich geschützt.</p>
+      <p class="foot-tagline">Game & Multimedia · Karlsruhe</p>
+    </div>
+  </footer>
+
+</div>
+
+<script src="./scripts/yugamesscript.js"></script>
+</body>
+</html>
