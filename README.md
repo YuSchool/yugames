@@ -1,6 +1,6 @@
 # YuGames — Portfolio
 
-Persönliche Portfolio-Website von Yusuf Sükün.  
+Persönliche Portfolio-Website von Yusuf Şükün.  
 Gebaut als Schüler im Bereich Game & Multimedia Entwicklung — zur Vorstellung meiner Projekte und als Bewerbung für ein Praktikum.
 
 ---
@@ -26,6 +26,7 @@ Gebaut als Schüler im Bereich Game & Multimedia Entwicklung — zur Vorstellung
 ## Geplante Features
 
 - [ ] DE/EN Sprachumschaltung — Übersetzung aller Texte ins Englische
+- [ ] Portfolio-PDF erstellen und unter `assets/portfolio-yusuf-suekuen.pdf` hinterlegen — wird im Recruiter-View zum Download angeboten
 
 ---
 
@@ -82,5 +83,5 @@ cd yugames
 
 ## Lizenz
 
-© 2026 Yusuf Sükün — Alle Rechte vorbehalten.  
+© 2026 Yusuf Şükün — Alle Rechte vorbehalten.  
 Siehe [LICENSE](LICENSE) für Details.
