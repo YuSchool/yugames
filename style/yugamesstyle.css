@@ -62,6 +62,7 @@ body{
   padding:0;
   border-right:1px solid var(--line2);
   gap:3px;
+  text-decoration:none;
 }
 .brand-en{
   font-size:15px;

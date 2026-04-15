@@ -27,6 +27,7 @@ Gebaut als Schüler im Bereich Game & Multimedia Entwicklung — zur Vorstellung
 
 - [ ] DE/EN Sprachumschaltung — Übersetzung aller Texte ins Englische
 - [ ] Portfolio-PDF erstellen und unter `assets/portfolio-yusuf-suekuen.pdf` hinterlegen — wird im Recruiter-View zum Download angeboten
+- [ ] Galerie-Projekte befüllen — echte Projektbilder, Titel und Beschreibungen in `index.html` unter `<!-- PROJEKTE HINTERLEGEN -->` eintragen, Bilder unter `assets/` ablegen
 
 ---
 
